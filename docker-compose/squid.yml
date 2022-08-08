@@ -1,0 +1,8 @@
+services:
+  squid:
+    image: ubuntu/squid
+    container_name: squid
+    ports:
+      - 3128:3128
+    pull_policy: always
+    restart: always
