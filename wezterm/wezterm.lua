@@ -66,7 +66,8 @@ return {
 
     -- Font
     font_size = 12,
-    font = wezterm.font("HackGenNerd Console"),
+    -- font = wezterm.font("HackGenNerd Console"),
+    font = wezterm.font("PlemolJP Console NF"),
     -- treat_east_asian_ambiguous_width_as_wide = true,
 
     -- Keys
